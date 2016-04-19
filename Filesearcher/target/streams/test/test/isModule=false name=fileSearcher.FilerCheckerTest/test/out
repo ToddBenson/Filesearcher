@@ -1,0 +1,5 @@
+[info] FilerCheckerTest:
+[info] FilterChecker passed a list where one file matches the filter
+[info] - should return a list with that file
+[info] FileterChecker passed a list with a directory that matches the filter
+[info] - should should not return the directory

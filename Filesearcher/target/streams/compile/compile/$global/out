@@ -1,0 +1,31 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FilterChecker.scala, /home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FileObject.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/classes/Main.class)[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FilterChecker.scala, /home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FileObject.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/home/pi/Documents/Scala/projects/Filesearcher/Hellosbt.scala)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FilterChecker.scala, /home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FileObject.scala, /home/pi/Documents/Scala/projects/Filesearcher/Hellosbt.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 45341, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/resources.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/rt.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jsse.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jce.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/charsets.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jfr.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/classes:/home/pi/.sbt/boot/scala-2.10.3/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/pi/Documents/Scala/projects/Filesearcher/src/main/scala/FilterChecker.scala:6: not found: type FileObject[0m
+[0m[[31merror[0m] [0m  def findMatchedFiles(fileObjects: List[FileObject]) = {[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0mone error found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m

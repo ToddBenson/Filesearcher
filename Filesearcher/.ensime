@@ -1,0 +1,25 @@
+(
+ :root-dir "/home/pi/Documents/Scala/projects/Filesearcher"
+ :cache-dir "/home/pi/Documents/Scala/projects/Filesearcher/.ensime_cache"
+ :scala-compiler-jars ("/home/pi/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar" "/home/pi/.sbt/boot/scala-2.10.4/lib/scala-library.jar" "/home/pi/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar" "/home/pi/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.4.jar")
+ :name "filesearcher"
+ :java-home "/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt"
+ :java-flags ("-Xss2m" "-Xmx512M")
+ :reference-source-roots ("/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/src.zip")
+ :scala-version "2.10.4"
+ :compiler-args ("-feature" "-deprecation" "-Xlint" "-Yinline-warnings" "-Yno-adapted-args" "-Ywarn-dead-code" "-Ywarn-numeric-widen" "-Xfuture")
+ :formatting-prefs nil
+ :disable-source-monitoring nil
+ :disable-class-monitoring nil
+ :subprojects ((
+   :name "filesearcher"
+   :source-roots ("/home/pi/Documents/Scala/projects/Filesearcher/src/main/java" "/home/pi/Documents/Scala/projects/Filesearcher/src/test/java" "/home/pi/Documents/Scala/projects/Filesearcher/src/main/scala" "/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala")
+   :targets ("/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/classes")
+   :test-targets ("/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/pi/.sbt/boot/scala-2.10.4/lib/scala-library.jar")
+   :runtime-deps nil
+   :test-deps ("/home/pi/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar" "/home/pi/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar" "/home/pi/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.9.jar" "/home/pi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar" "/home/pi/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar" "/home/pi/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar")
+   :doc-jars ("/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/file-searcher_2.10-0.1-javadoc.jar" "/home/pi/.ivy2/cache/junit/junit-dep/docs/junit-dep-4.8.2-javadoc.jar" "/home/pi/.ivy2/cache/com.novocode/junit-interface/docs/junit-interface-0.9-javadoc.jar" "/home/pi/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.4-javadoc.jar" "/home/pi/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.10.0-javadoc.jar" "/home/pi/.ivy2/cache/org.scalatest/scalatest_2.10/docs/scalatest_2.10-2.0-javadoc.jar")
+   :reference-source-roots ("/home/pi/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.1-sources.jar" "/home/pi/.ivy2/cache/junit/junit-dep/srcs/junit-dep-4.8.2-sources.jar" "/home/pi/.ivy2/cache/com.novocode/junit-interface/srcs/junit-interface-0.9-sources.jar" "/home/pi/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar" "/home/pi/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.10.0-sources.jar" "/home/pi/.ivy2/cache/org.scalatest/scalatest_2.10/srcs/scalatest_2.10-2.0-sources.jar")))
+)

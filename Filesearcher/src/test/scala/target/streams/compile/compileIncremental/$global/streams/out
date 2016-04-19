@@ -1,0 +1,37 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Running cached compiler 44825c, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/resources.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/rt.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jsse.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jce.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/charsets.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jfr.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/classes:/home/pi/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/target/scala-2.10/classes
+[error] /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala:3: object scalatest is not a member of package org
+[error] import org.scalatest.FlatSpec
+[error]            ^
+[error] /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala:5: not found: type FlatSpec
+[error] class FilerCheckerTests extends FlatSpec{
+[error]                                 ^
+[error] /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala:6: value should is not a member of String
+[error]   "FilterChecker passed a list where one file matches the filter" should
+[error]                                                                   ^
+[error] three errors found
+[debug] Compilation failed (CompilerInterface)
+[error] (compile:compileIncremental) Compilation failed

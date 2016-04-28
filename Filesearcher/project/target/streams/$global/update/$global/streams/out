@@ -2309,7 +2309,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.4!scalap.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 18027ms :: artifacts dl 433ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8597ms :: artifacts dl 367ms[0m
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT compile produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT runtime produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT test produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-test.xml[0m
@@ -2324,5 +2324,5 @@
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT pom produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT scala-tool produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#filesearcher-build;0.1-SNAPSHOT ensime-internal produced in /home/pi/Documents/Scala/projects/Filesearcher/project/target/resolution-cache/reports/default-filesearcher-build-ensime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (18027ms resolve - 433ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (8597ms resolve - 367ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

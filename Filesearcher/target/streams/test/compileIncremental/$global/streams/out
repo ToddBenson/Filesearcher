@@ -1,46 +1,43 @@
-[debug] The fileSearcher.FileObject source file has the following regular definitions changed:
-[debug] 	notify, name, wait, $asInstanceOf, DirectoryObject, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, FileObject, <init>, ==, clone, toString, !=, getClass, ne, IOObject, eq, ##, finalize, hashCode.
-[debug] All member reference dependencies will be considered within this context.
-[debug] Files invalidated by inheriting from (external) fileSearcher.FileObject: Set(); now invalidating by inheritance (internally).
-[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
-[debug] Getting sources that directly depend on (external) fileSearcher.FileObject.
-[debug] The following modified names cause invalidation of /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala: Set(FileObject, <init>, ==)
-[debug] The fileSearcher.FilterChecker source file has the following regular definitions changed:
-[debug] 	findMatchedFiles.
-[debug] All member reference dependencies will be considered within this context.
-[debug] Files invalidated by inheriting from (external) fileSearcher.FilterChecker: Set(); now invalidating by inheritance (internally).
-[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
-[debug] Getting sources that directly depend on (external) fileSearcher.FilterChecker.
-[debug] The following modified names cause invalidation of /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala: Set(findMatchedFiles)
-[debug] 
-[debug] Initial source changes: 
-[debug] 	removed:Set()
-[debug] 	added: Set()
-[debug] 	modified: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
-[debug] Removed products: Set()
-[debug] External API changes: API Changes: Set(NamesChange(fileSearcher.FileObject,ModifiedNames(regularNames = notify, name, wait, $asInstanceOf, DirectoryObject, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, FileObject, <init>, ==, clone, toString, !=, getClass, ne, IOObject, eq, ##, finalize, hashCode, implicitNames = )), NamesChange(fileSearcher.FilterChecker,ModifiedNames(regularNames = findMatchedFiles, implicitNames = )))
-[debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
-[debug] 
-[debug] Sources indirectly invalidated by:
-[debug] 	product: Set()
-[debug] 	binary dep: Set()
-[debug] 	external source: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
-[debug] All initially invalidated sources: Set(/home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala)
-[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-[info] Compiling 1 Scala source to /home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/test-classes...
-[debug] Getting compiler-interface from component compiler for Scala 2.10.4
-[debug] Getting compiler-interface from component compiler for Scala 2.10.4
-[debug] Running cached compiler 846e16, interfacing (CompilerInterface) with Scala compiler version 2.10.4
-[debug] Calling Scala compiler with arguments  (CompilerInterface):
-[debug] 	-bootclasspath
-[debug] 	/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/resources.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/rt.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/sunrsasign.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jsse.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jce.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/charsets.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jfr.jar:/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/classes:/home/pi/.sbt/boot/scala-2.10.4/lib/scala-library.jar
-[debug] 	-classpath
-[debug] 	/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/test-classes:/home/pi/Documents/Scala/projects/Filesearcher/target/scala-2.10/classes:/home/pi/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar:/home/pi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar:/home/pi/.ivy2/cache/com.novocode/junit-interface/jars/junit-interface-0.9.jar:/home/pi/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar:/home/pi/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar:/home/pi/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar
-[debug] Scala compilation took 14.179779548 s
-[debug] New invalidations:
-[debug] 	Set()
-[debug] Initial set of included nodes: Set()
-[debug] Previously invalidated, but (transitively) depend on new invalidations:
-[debug] 	Set()
-[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+[0m[[0mdebug[0m] [0mThe fileSearcher.FileObject$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	children.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) fileSearcher.FileObject$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) fileSearcher.FileObject$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe fileSearcher.DirectoryObject source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	children.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) fileSearcher.DirectoryObject: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) fileSearcher.DirectoryObject.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe fileSearcher.IOObject source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	children.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) fileSearcher.IOObject: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) fileSearcher.IOObject.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe fileSearcher.FileObject source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	children.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) fileSearcher.FileObject: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) fileSearcher.FileObject.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/pi/Documents/Scala/projects/Filesearcher/src/test/scala/FileCheckerTest.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(fileSearcher.FileObject$,ModifiedNames(regularNames = children, implicitNames = )), NamesChange(fileSearcher.DirectoryObject,ModifiedNames(regularNames = children, implicitNames = )), NamesChange(fileSearcher.IOObject,ModifiedNames(regularNames = children, implicitNames = )), NamesChange(fileSearcher.FileObject,ModifiedNames(regularNames = children, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

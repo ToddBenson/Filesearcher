@@ -1,19 +1,19 @@
 package fileSearcher
 
 import org.scalatest.FlatSpec
+import java.io.File
 
 class FilerCheckerTest extends FlatSpec{
   "FilterChecker passed a list where one file matches the filter" should
   "return a list with that file" in {
-    val matchingFile = new FileObject("match")
-    val listOfFiles = List(new FileObject("random"), matchingFile)
-    val matchedFiles = new FilterChecker("match").findMatchedFiles(listOfFiles)
-    assert(matchedFiles == List(matchingFile))
+    val listOfFiles = List(FileObject(new File("random")), FileObject(new File("match")))
+    val matchedFiles = FilterChecker("match") findMatchedFiles listOfFiles
+    assert(matchedFiles == List(FileObject(new File("match"))))
   }
   "FileterChecker passed a list with a directory that matches the filter" should
   "should not return the directory" in {
-    val listOfIOObjects = List(new FileObject("random"), new DirectoryObject("match"))
-    val matchedFiles = new FilterChecker("match").findMatchedFiles(listOfIOObjects)
+    val listOfIOObjects = List(FileObject(new File("random")), new DirectoryObject(new File("match")))
+    val matchedFiles = FilterChecker("match") findMatchedFiles listOfIOObjects
     assert(matchedFiles.length == 0)
   }
 

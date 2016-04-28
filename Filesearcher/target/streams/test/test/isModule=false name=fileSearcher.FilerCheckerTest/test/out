@@ -1,5 +1,5 @@
-[info] FilerCheckerTest:
-[info] FilterChecker passed a list where one file matches the filter
-[info] - should return a list with that file
-[info] FileterChecker passed a list with a directory that matches the filter
-[info] - should should not return the directory
+[0m[[0minfo[0m] [0m[32mFilerCheckerTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mFilterChecker passed a list where one file matches the filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a list with that file[0m[0m
+[0m[[0minfo[0m] [0m[32mFileterChecker passed a list with a directory that matches the filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should should not return the directory[0m[0m

@@ -7,3 +7,7 @@
 [0m[[0minfo[0m] [0m[32m- should use the current location[0m[0m
 [0m[[0minfo[0m] [0m[32mMatcher with a sub folder checking matching a root location with two subtree files matching[0m[0m
 [0m[[0minfo[0m] [0m[32m- should return a list with those file names[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher given a path that has one file that matches file filter and content filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a list with that file name[0m[0m
+[0m[[0minfo[0m] [0m[32mMatcher given a path that has no files that matches file filter and content filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty list[0m[0m

@@ -27,3 +27,13 @@ exit
 exit
 test
 exit
+~test
+test
+~test
+scala
+exit
+build
+import fileSearcher._
+exit
+test
+exit
